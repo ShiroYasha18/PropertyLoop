@@ -41,3 +41,21 @@ To use Groq's LLMs, you need an API key. Follow these steps to obtain one:
    ```bash
    git clone https://github.com/ShiroYasha18/PropertyLoop.git
    cd PropertyLoop/real-estate-assistant
+
+2. ```bash
+   pip install -r requirements.txt
+    ```
+3. Set Up Environment Variables :
+   Create a .env file in the root directory and add your Groq API key:
+   
+   ```plaintext
+   GROQ_API_KEY="your_groq_api_key_here"
+    ```
+### Running the Application
+1. Start the Streamlit App :
+   
+   ```bash
+   streamlit run app.py
+    ```
+2. Access the Application :
+   Open your browser and navigate to http://localhost:8501 .
