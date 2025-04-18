@@ -14,6 +14,23 @@ Welcome to the Real Estate Assistant project! This application leverages AI-powe
 - **Groq LLMs**: Utilized for natural language processing and image analysis.
 - **Streamlit**: For building the user interface and interaction.
 
+## Agents and Tools
+
+### Issue Detection Agent
+
+- **Role**: Property Issue Detection Specialist
+- **Goal**: Identify property issues from images and provide actionable troubleshooting advice.
+- **Tools Used**:
+  - **Image Analysis**: Uses `analyze_property_image` from `tools.image_tools` to identify issues such as water damage, mold, and structural problems.
+  - **Language Model**: Utilizes Groq's LLMs for generating detailed inspection reports.
+
+### Router Agent
+
+- **Role**: Query Router
+- **Goal**: Accurately categorize and route user queries to the right specialist agent.
+- **Tools Used**:
+  - **Text Analysis**: Uses `build_query_context` from `tools.text_tools` to understand user intentions and determine the appropriate specialist.
+
 ## About Groq
 
 Groq is a leading provider of AI and machine learning solutions, offering powerful language models that enable advanced natural language processing and image analysis. Their models are designed to deliver high performance and accuracy, making them ideal for applications in real estate and property inspection.
