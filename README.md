@@ -18,6 +18,8 @@ Welcome to the Real Estate Assistant project! This application leverages AI-powe
 
 ### Issue Detection Agent
 
+![Issue Detection Agent](assets/images/issue_detection_agent.png)
+
 - **Role**: Property Issue Detection Specialist
 - **Goal**: Identify property issues from images and provide actionable troubleshooting advice.
 - **Tools Used**:
