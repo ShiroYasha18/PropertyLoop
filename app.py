@@ -7,12 +7,16 @@ import os
 from main import RealEstateAssistant
 from utils.helpers import format_response, check_image_size
 
-# Set page config
+# Set page config with the logo
 st.set_page_config(
-    page_title="Real Estate Multi-Agent Assistant",
+    page_title="PropertyLoop Assistant",
     page_icon="🏠",
     layout="wide"
 )
+
+# Display logo in the sidebar
+logo = Image.open("assets/propertyloop-logo.png")
+st.sidebar.image(logo, width=200)
 
 # Initialize session state
 if "assistant" not in st.session_state:
