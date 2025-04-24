@@ -18,7 +18,7 @@ Welcome to the Real Estate Assistant project! This application leverages AI-powe
 
 ### Issue Detection Agent
 
-![Issue Detection Agent](assets/images/issue_detection_agent.png)
+### Issue Detection Agent
 
 - **Role**: Property Issue Detection Specialist
 - **Goal**: Identify property issues from images and provide actionable troubleshooting advice.
@@ -82,9 +82,11 @@ To use Groq's LLMs, you need an API key. Follow these steps to obtain one:
 ## Demo
 
 ### Image Analysis
-![Property Issue Detection](demo_pics/image-analysis.jpg)
+![Property Issue Detection](assets/Image_issue_detection_agent.png)
+![Image property issue](assets/Img_issue.png)
 *Example of image analysis identifying water damage and structural issues*
 
+
 ### Text Query Handling
-![Tenancy Advice](demo_pics/text-query.jpg)
+![Tenancy Advice](assets/Tenancy_agent_FAQ.png)
 *Example of text-based query about rental agreements*
